@@ -114,6 +114,19 @@
       ]
     },
     {
+      "name": "confluence-api",
+      "description": "A Confluence Cloud site's pages, blog posts and comments, read with its web API and an API token of the person's own, each one's text as it is stored.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/confluence-api/source.md",
+      "sha256": "30692efe688fa6f2ce672f1d9a33a57997a024c653259ac94f9dc017a020f1fa",
+      "signature": "e5rBBFghDbcopMaWU+PUZ+lY+XkO1KqDh8ZBAjQNRQvu1AfSS6GDh7hLm9afX+uzt5jV1DXLk0TQhXcsMEr8BQ==",
+      "tags": [
+        "confluence",
+        "wiki",
+        "api"
+      ]
+    },
+    {
       "name": "rss",
       "description": "A news feed - RSS or Atom - read with a web request; each entry is a record.",
       "version": "1.0.0",
