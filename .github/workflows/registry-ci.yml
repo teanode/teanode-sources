@@ -1,0 +1,67 @@
+name: Registry CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate index structure
+        run: |
+          set -euo pipefail
+          jq -e '
+            .sources and
+            (.sources | type == "array") and
+            all(.sources[]; .name and .description and .version and .url and .sha256 and .signature)
+          ' index.json >/dev/null
+
+      - name: Validate files, URLs, and sha256
+        run: |
+          set -euo pipefail
+          jq -c '.sources[]' index.json | while read -r source; do
+            name="$(jq -r '.name' <<<"$source")"
+            version="$(jq -r '.version' <<<"$source")"
+            url="$(jq -r '.url' <<<"$source")"
+            sha="$(jq -r '.sha256' <<<"$source" | tr '[:upper:]' '[:lower:]')"
+
+            path="sources/${name}/source.md"
+            expected_url="https://raw.githubusercontent.com/teanode/teanode-sources/main/${path}"
+
+            if [[ ! -f "$path" ]]; then
+              echo "Missing source file: $path"
+              exit 1
+            fi
+
+            if [[ "$url" != "$expected_url" ]]; then
+              echo "URL mismatch for ${name}@${version}"
+              echo " expected: $expected_url"
+              echo " actual:   $url"
+              exit 1
+            fi
+
+            actual_sha="$(sha256sum "$path" | awk '{print $1}')"
+            if [[ "$sha" != "$actual_sha" ]]; then
+              echo "sha256 mismatch for ${name}@${version}"
+              echo " expected(index): $sha"
+              echo " actual(file):    $actual_sha"
+              exit 1
+            fi
+          done
+
+      - name: Verify signatures (warning on PRs)
+        if: github.event_name == 'pull_request'
+        continue-on-error: true
+        run: scripts/verify-index.sh --public-key-file keys/teanode-sources-ed25519-public.pem --index index.json
+
+      - name: Verify signatures (required on main)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: scripts/verify-index.sh --public-key-file keys/teanode-sources-ed25519-public.pem --index index.json
