@@ -1,4 +1,118 @@
 {
   "publisher": "github.com/teanode/teanode-sources",
-  "sources": []
+  "sources": [
+    {
+      "name": "folder",
+      "description": "A folder on the person's computer - notes, documents, and git checkouts with their history - read by TeaNode's own files reader.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/folder/source.md",
+      "sha256": "3919b17173c68597847bf8e9d6c723418ae17655e4eb9bb3cefae434d175c918",
+      "signature": "Sd3vbLrNm7Dd4SHvlHCcqnQ18bpJW71EIIVAvXU3GevmU6gDZlq+/R+dnesxOrLovtGX5/lyog9zYNwjNI19AQ==",
+      "tags": [
+        "files",
+        "code",
+        "git"
+      ]
+    },
+    {
+      "name": "journal",
+      "description": "A folder of the person's own dated notes - a file a day or a month, or one file with date headings - read by TeaNode's own journal reader.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/journal/source.md",
+      "sha256": "ec1d9c783520d8de7a9cfbda139e14d9093e7e670c94101ee429a0168f8446e3",
+      "signature": "KIHHysKxaeTpQ2jUo2dIph3CpuBxVRpvNvdbgvtjbWDVfWKpHvqFrlUFA9eSO4yMN5KuOIsgIMKzzDNU37/EDA==",
+      "tags": [
+        "notes",
+        "journal"
+      ]
+    },
+    {
+      "name": "mailbox-sent",
+      "description": "What the person sent from one of their TeaNode mailboxes - how they write, to whom, and about what - read by TeaNode's own sent-mail reader on the server.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/mailbox-sent/source.md",
+      "sha256": "2c57ccad848096bb8a71e4c21e4b3b69b40b0c1bee2704d8add08cac982d49ff",
+      "signature": "/h573L57fOWXcMdzIiaOErXTp/NsN79MaFvPkaUMc7AFZHatCbkwtd9I4b3uFXd7AA3J/2gTN9frz0T7lhvTBw==",
+      "tags": [
+        "mail"
+      ]
+    },
+    {
+      "name": "github-gh",
+      "description": "GitHub repositories - their READMEs, issues and pull requests - read with the gh command line tool.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/github-gh/source.md",
+      "sha256": "7a22f15456c08e0d337a3f46b956341a545b526d35f265f7e17fb4d373224487",
+      "signature": "yw9Agos+tFPxBuipZK6Z/BVmOhASaCvUSJVpqr17NykU5eT6BruoaEE1jrNQl/NTOR6dlAb5PfBxF9chm31KDQ==",
+      "tags": [
+        "github",
+        "code",
+        "issues"
+      ]
+    },
+    {
+      "name": "gmail-gog",
+      "description": "A Gmail mailbox's threads, read with the gog command line tool, each thread's messages in full.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/gmail-gog/source.md",
+      "sha256": "a30053b74c4704d97cb1fc7c43ce99d5bfb4c5f72e4c03242995996800050054",
+      "signature": "GMDaoInR5hHcQNpzGddILWPaH+ijQEsZtiL0SZfBJejaVmC3V8qjOmlnmX1yALNYqUsS4NnJ8GMqeElyKN1yDQ==",
+      "tags": [
+        "gmail",
+        "mail",
+        "google"
+      ]
+    },
+    {
+      "name": "google-drive-gog",
+      "description": "A Google Drive's folders and files, read with the gog command line tool; Google documents exported, other files fetched to be read.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/google-drive-gog/source.md",
+      "sha256": "cd1d78d39bda8efaf8f0521650d7bb239bef8f976f4de83fe58ae3abea6571a4",
+      "signature": "FqTpsFBSSbsHHY1mq4XIGqIPxpY0vHU0Tkkv77G3Y8oRNNK0ISj3s1U1m8iqOX4Tfd+wKU1Um/widobejFaqAQ==",
+      "tags": [
+        "google",
+        "drive",
+        "documents"
+      ]
+    },
+    {
+      "name": "mattermost-mm",
+      "description": "A Mattermost server's channels - their posts, threads and files - from the copy the mm command line tool keeps with mm archive, brought up to date at the start of every pass.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/mattermost-mm/source.md",
+      "sha256": "0719cdf74599240aea2bb33b6142819dce9111a1e30416e72795501006535dc4",
+      "signature": "3mBpQQhjSTEkc+wRVapGFXTay5ANtbtMPYPNjuvHJPd3k8905zK2kk/uoh5rwtqQ4sx+AyZivP3Vk07dCxUGDw==",
+      "tags": [
+        "mattermost",
+        "chat"
+      ]
+    },
+    {
+      "name": "confluence",
+      "description": "A Confluence site's pages and blog posts, read with the confluence command line tool, each page's text as markdown.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/confluence/source.md",
+      "sha256": "a03064074cfe3da88dabcb8b07c9e88d01d5463f6f706bcaa69928725e064afd",
+      "signature": "dk+zBEKRMLmQtk7MRaBdENeJAkfXlf28ZwwpG0/wZ6AzrnDvPAoDj+xwRY7ipA4kHh1AfQKPOdqI+1JjK2BhBw==",
+      "tags": [
+        "confluence",
+        "wiki"
+      ]
+    },
+    {
+      "name": "rss",
+      "description": "A news feed - RSS or Atom - read with a web request; each entry is a record.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/rss/source.md",
+      "sha256": "9ea48869e55ad1a7ad2357168711cc56b636eef74f2c004c4b015ecf506d4163",
+      "signature": "zjCpfa+S0odgtJBH4YDRAAY3xxAgya+vl3wPI+5y+jWiup8AR+XOUffuKVgF6cmGU7+AYfJFfoMR7Lj1B1tdBw==",
+      "tags": [
+        "rss",
+        "atom",
+        "news",
+        "web"
+      ]
+    }
+  ]
 }
