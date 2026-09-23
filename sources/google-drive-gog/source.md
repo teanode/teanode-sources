@@ -2,6 +2,8 @@
 name: google-drive-gog
 description: A Google Drive's folders and files, read with the gog command line tool; Google documents exported, other files fetched to be read.
 requires: [gog]
+# Google counts calls a minute for each person; a steady pace stays under it.
+pace: 250ms
 
 settings:
   - name: account
