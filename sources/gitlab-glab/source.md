@@ -1,5 +1,5 @@
 ---
-name: gitlab
+name: gitlab-glab
 description: A GitLab server's projects - their issues and merge requests - read with the glab command line tool, on whichever computer can reach the server.
 requires: [glab]
 

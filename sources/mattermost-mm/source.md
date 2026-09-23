@@ -1,5 +1,5 @@
 ---
-name: mattermost
+name: mattermost-mm
 description: A Mattermost server's channels - their posts, threads and files - read with the mm command line tool, signed in as the person.
 requires: [mm]
 

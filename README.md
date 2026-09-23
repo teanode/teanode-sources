@@ -11,7 +11,7 @@ Folders of files and code are not a type here: TeaNode reads them with rules bui
 ## Layout
 
 - `index.json`: the registry index TeaNode reads, one entry per published type, each with its version, the file's URL, its SHA-256 and an Ed25519 signature.
-- `sources/<name>/source.md`: a type. YAML between `---` lines, then prose for people.
+- `sources/<name>/source.md`: a type. YAML between `---` lines, then prose for people. A type is named for the service and the tool it calls, `<service>-<tool>` (`github-gh`, `gmail-gog`), or for the service alone when the tool is named after it (`confluence`), so two ways of reading one service can sit side by side.
 - `keys/teanode-sources-ed25519-public.pem`: the key the signatures are checked against. TeaNode carries it built in; it is not the key that signs skills.
 - `scripts/`, `Makefile`: hashing, signing and verifying the index, as in `teanode-skills`.
 

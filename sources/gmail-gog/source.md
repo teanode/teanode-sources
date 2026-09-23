@@ -1,5 +1,5 @@
 ---
-name: gmail
+name: gmail-gog
 description: A Gmail mailbox's threads, read with the gog command line tool, each thread's messages in full.
 requires: [gog]
 

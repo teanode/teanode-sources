@@ -1,5 +1,5 @@
 ---
-name: google-drive
+name: google-drive-gog
 description: A Google Drive's folders and files, read with the gog command line tool; Google documents exported, other files fetched to be read.
 requires: [gog]
 

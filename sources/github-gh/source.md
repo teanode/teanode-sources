@@ -1,5 +1,5 @@
 ---
-name: github
+name: github-gh
 description: GitHub repositories - their READMEs, issues and pull requests - read with the gh command line tool.
 requires: [gh]
 
