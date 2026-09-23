@@ -116,10 +116,10 @@
     {
       "name": "confluence-api",
       "description": "A Confluence Cloud site's pages, blog posts and comments, read with its web API and an API token of the person's own, each one's text as it is stored.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/confluence-api/source.md",
-      "sha256": "30692efe688fa6f2ce672f1d9a33a57997a024c653259ac94f9dc017a020f1fa",
-      "signature": "e5rBBFghDbcopMaWU+PUZ+lY+XkO1KqDh8ZBAjQNRQvu1AfSS6GDh7hLm9afX+uzt5jV1DXLk0TQhXcsMEr8BQ==",
+      "sha256": "0b51fe3046c0633dda90be71e246f0d9d5761187e7c94a25e29a77d1eefa3257",
+      "signature": "wrQ4WeVliyyuHSjsk+kYeByYQK1fVJpF80s+j3Cdc5HDtvauE9rqn0bVZSXgR9mL1w6Yko8L18GsZhRIdZA7CQ==",
       "tags": [
         "confluence",
         "wiki",
