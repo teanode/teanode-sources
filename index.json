@@ -104,10 +104,10 @@
     {
       "name": "confluence",
       "description": "A Confluence site's pages and blog posts, read with the confluence command line tool, each page's text as markdown.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/confluence/source.md",
-      "sha256": "a03064074cfe3da88dabcb8b07c9e88d01d5463f6f706bcaa69928725e064afd",
-      "signature": "dk+zBEKRMLmQtk7MRaBdENeJAkfXlf28ZwwpG0/wZ6AzrnDvPAoDj+xwRY7ipA4kHh1AfQKPOdqI+1JjK2BhBw==",
+      "sha256": "c5cbebbb197c9537f5ca346955103156d546f1839daa2bac2e26c6f9327a49b9",
+      "signature": "pZSAp6delE3grSiIXfanJPWq3hwtnEjN8bcE4s0yu9/2XgpMbgd9tomJJP8ed/Vspl3AUM8PWk40X2OspPtkBA==",
       "tags": [
         "confluence",
         "wiki"
