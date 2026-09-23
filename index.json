@@ -89,6 +89,19 @@
       ]
     },
     {
+      "name": "gitlab-glab",
+      "description": "A GitLab server's projects - their issues and merge requests - read with the glab command line tool, on whichever computer can reach the server.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/gitlab-glab/source.md",
+      "sha256": "1ef8b6bca21c13b5ec036eb89925a8ab6104141049ebe4c3626bf9db82ff2002",
+      "signature": "OnsSGdrvQQC4LszJop2S+ZPjm9GPpUrsAHTfCGeSm9QC6WDN2iSSb0DX1dFWrwc5IOH0qoAcQgR9d/AZYHMbAg==",
+      "tags": [
+        "gitlab",
+        "code",
+        "issues"
+      ]
+    },
+    {
       "name": "confluence",
       "description": "A Confluence site's pages and blog posts, read with the confluence command line tool, each page's text as markdown.",
       "version": "1.0.0",
