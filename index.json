@@ -145,8 +145,8 @@
       "description": "The person's conversations with Claude Code, cut down to what was said, and the notes it keeps in memory, read from its folder on their computer with jq.",
       "version": "1.0.0",
       "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/claude-code/source.md",
-      "sha256": "368a9f60bb9159cd639d348ddac3bd325ae42fb40bfd3437aa2d94c8a52c1996",
-      "signature": "sgGt5lsCSTU3ZhWMttOuFAqm8NPb47F894uPMVMd0+6B+P32xurv5MbAopex/Stuc4JTYTHJaPpSvZ1jEHpxBA==",
+      "sha256": "7bb5aca8d48582c885dca140404fd791d37eaa9b480a56226cd055df9f7633d3",
+      "signature": "9FiA3D+3LwiAy6STkEH9XsSosa+ewduylnudXM2k3doM4jVBcazjASkm7HarWCX638Eg84ZJXrClPiFXGP/mAQ==",
       "tags": [
         "claude-code",
         "chat",
@@ -158,8 +158,8 @@
       "description": "The person's conversations with Codex, cut down to what was said, and the notes it keeps in memory, read from its folder on their computer with jq.",
       "version": "1.0.0",
       "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/codex/source.md",
-      "sha256": "cbb1548cf43530e290875dcb13381c4e2cdd4ef342fa46b9b5395400dc42290a",
-      "signature": "SwKomCSCd4vrY2uSaLeZnS4yQ5V6LDpZvIRSq2f3qXwa2qVal7MmrhYFz1TlB8IFff6eghMLlB5iGQPVtJ8LDA==",
+      "sha256": "186b5a8b73ac5d3789b3980ec2252dc1a90ed590af85ba6044ef0acb46fecf92",
+      "signature": "uHl/qtPgmTERpLD+EJWsZ3a1dAtbHFgj3/uYkOV1yIcbzZOamjKo1Aj1UXR1bY/Lp10gYmJmoA/ua/y19PsEAQ==",
       "tags": [
         "codex",
         "chat",
