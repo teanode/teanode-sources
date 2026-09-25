@@ -143,10 +143,10 @@
     {
       "name": "claude-code",
       "description": "The person's conversations with Claude Code, cut down to what was said, and the notes it keeps in memory, read from its folder on their computer with jq.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/claude-code/source.md",
-      "sha256": "7bb5aca8d48582c885dca140404fd791d37eaa9b480a56226cd055df9f7633d3",
-      "signature": "9FiA3D+3LwiAy6STkEH9XsSosa+ewduylnudXM2k3doM4jVBcazjASkm7HarWCX638Eg84ZJXrClPiFXGP/mAQ==",
+      "sha256": "a0893cb877e5af3d9b0f31ab7448dc7ab5bbf9f111042368386d1cb8654abc56",
+      "signature": "a9eMdDJJWuS8spcdkNONR/bCZwt5f0oDzrIda15Nq01SsbEDVazlAn9QBvqWldhE4mGbupSjF3ezZW0Pa6fCDA==",
       "tags": [
         "claude-code",
         "chat",
