@@ -53,10 +53,10 @@
     {
       "name": "gmail-gog",
       "description": "A Gmail mailbox's threads, read with the gog command line tool, each thread's messages in full.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "url": "https://raw.githubusercontent.com/teanode/teanode-sources/main/sources/gmail-gog/source.md",
-      "sha256": "a30053b74c4704d97cb1fc7c43ce99d5bfb4c5f72e4c03242995996800050054",
-      "signature": "GMDaoInR5hHcQNpzGddILWPaH+ijQEsZtiL0SZfBJejaVmC3V8qjOmlnmX1yALNYqUsS4NnJ8GMqeElyKN1yDQ==",
+      "sha256": "0fe03a3047f4e97885686f10619c3f0f63f7b259d71802454c89a89dbdf8e161",
+      "signature": "zw9+ed++jBHG7EHlBiMVY23TSHzLXbaB9edJWG6AS/IUR83bZ0bDPNW+oMozaX4Za7hOvyTr4QhWN/g3ePMmBw==",
       "tags": [
         "gmail",
         "mail",
